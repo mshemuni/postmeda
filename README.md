@@ -44,7 +44,23 @@ The api has three endpoints.
 see: [api/docs](api/docs)
 
 ## Front-end
-Using API provided by `pmweather` a single page front-end was created using `jquery` and `bootstrap`
+Using API provided by `pmweather` two pages for front-end was created using `jquery` and `bootstrap`
+
+### Home
+Home page
+![Home Page](imgs/home.png "Home page")
+Results on home page
+![Home Page](imgs/home_show.png "Home page with results")
+
+### Available cities
+All available cities
+![Home Page](imgs/available.png "All Cities page")
+Results on all available cities
+![Home Page](imgs/available_show.png "All Cities with results")
+
+### API
+API documentation provided by `ninja`
+![Home Page](imgs/api.png "API help page")
 
 ## Requirements
 - `Django==4.0.5`
