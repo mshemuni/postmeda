@@ -19,7 +19,7 @@ class Country:
         returns a list of City objects to each city in self.file
         :return: List of cities
         """
-        with open(self.file, 'r') as j:
+        with open(self.file, 'r', encoding="utf8") as j:
             world_cities = json.loads(j.read())
             return [
                 City(
