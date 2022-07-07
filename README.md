@@ -64,7 +64,7 @@ API documentation provided by `ninja`
 
 ## Requirements
 - `Django==4.0.5`
-- `ninja==1.10.2.3`
+- `django-ninja==0.19.0`
 - `orjson==3.7.5`
 - `requests==2.28.0`
 
