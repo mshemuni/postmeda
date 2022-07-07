@@ -3,6 +3,8 @@ import json
 from .city import City
 from .errors import CityNotFound
 
+from typing import List
+
 
 class Country:
     def __init__(self, file: str) -> None:
@@ -14,7 +16,7 @@ class Country:
         self.file = file
         self.city_data = self.__read_canada()
 
-    def __read_canada(self) -> list[City]:
+    def __read_canada(self) -> List[City]:
         """
         returns a list of City objects to each city in self.file
         :return: List of cities
@@ -33,7 +35,7 @@ class Country:
             ]
 
     @property
-    def cities(self) -> list[str]:
+    def cities(self) -> List[str]:
         """
         Returns list of cities available in self.file (sorted)
 
